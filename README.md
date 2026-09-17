@@ -50,6 +50,12 @@ powershell -ExecutionPolicy Bypass -File .\...\check-skills.ps1 -Fix
 
 느리면 범위를 좁힙니다: `-Roots 'C:\내작업폴더' -Depth 6`
 
+## 배포용 치트시트 (A4 한 장)
+
+[`docs/cheatsheet.html`](docs/cheatsheet.html) — 브라우저로 열고 **인쇄 / PDF로 저장** 버튼을 누르면 A4 한 장이 그대로 나옵니다. 여백 없이 꽉 차게 설계했으니 인쇄 설정에서 **배율 100%, 배경 그래픽 켜기**로 두세요.
+
+담긴 것: 4층 정의 · 설치 경로 5줄 · 판단 5질문 · 증상별 원인 6가지 · 환경 매트릭스 · 설치 명령 3줄.
+
 ## 웹 · 데스크톱 · 코워크에서 쓰려면
 
 이 세 환경은 폴더가 아니라 ZIP 업로드입니다. `plugins/claude-4layer/skills/` 안의 **스킬 폴더 하나를 각각 압축**해서 **Customize → Skills → +** 에 올리세요. 계정에 붙어서 웹·데스크톱·코워크 모두에 뜹니다.
@@ -86,6 +92,8 @@ claude plugin validate ./plugins/claude-4layer
 claude-4layer/
 ├── .claude-plugin/
 │   └── marketplace.json          # 마켓 카탈로그
+├── docs/
+│   └── cheatsheet.html           # A4 한 장 치트시트 (인쇄용)
 └── plugins/
     └── claude-4layer/
         ├── .claude-plugin/
