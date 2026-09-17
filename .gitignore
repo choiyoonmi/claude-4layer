@@ -1,0 +1,9 @@
+# Windows / macOS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# 편집기
+.vscode/
+.idea/
+*.swp

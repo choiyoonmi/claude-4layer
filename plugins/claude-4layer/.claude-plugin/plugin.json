@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "claude-4layer",
+  "displayName": "클로드 4층 구조",
+  "version": "1.0.0",
+  "description": "md·스킬·플러그인·메모리 네 층을 설명하고, 폴더에 맞는 CLAUDE.md를 만들고, 인식 안 되는 스킬을 제자리로 옮겨 준다. 공감에듀테크 바이브코딩 웨비나 실습용.",
+  "author": {
+    "name": "공감에듀테크"
+  },
+  "license": "MIT",
+  "keywords": ["claude-md", "skills", "plugin", "memory", "webinar", "korean", "onboarding"]
+}

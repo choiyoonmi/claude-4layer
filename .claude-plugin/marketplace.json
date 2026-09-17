@@ -1,0 +1,14 @@
+{
+  "name": "gonggam-edutech",
+  "owner": {
+    "name": "공감에듀테크",
+    "url": "https://github.com/choiyoonmi/claude-4layer"
+  },
+  "plugins": [
+    {
+      "name": "claude-4layer",
+      "source": "./plugins/claude-4layer",
+      "description": "md·스킬·플러그인·메모리 4층 구조를 설명하고, CLAUDE.md 초안을 만들고, 인식 안 되는 스킬을 제자리로 옮겨 주는 웨비나 실습 플러그인"
+    }
+  ]
+}
